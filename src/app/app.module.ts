@@ -1,9 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'
+import { AccordionModule } from 'primeng/accordion';
+import { ToastModule } from 'primeng/toast';
+import { ButtonModule } from 'primeng/button';
 
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -27,7 +31,11 @@ import { NotfoundComponent } from './notfound/notfound.component';
   imports: [
     HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AccordionModule,
+    BrowserAnimationsModule,
+    ToastModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
