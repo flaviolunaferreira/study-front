@@ -1,0 +1,61 @@
+section {
+   background: url(../../../assets/wp311455-ford-logo-wallpaper.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: calc(100vh - 60px);
+ }
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+input {
+  margin: 2px;
+  width: 50vw;
+  height: 5vh;
+  box-shadow: 2px 2px 5px rgba(107, 227, 248, 0.644);
+  text-align: center;
+}
+
+button {
+  background: #1b9bff;
+  color: white;
+  margin: 2px;
+  width: 7vw;
+  height: 5vh;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(107, 227, 248, 0.644);
+}
+
+@media (max-width: 952px){
+  section {
+    background: url(../../../assets/wp311455-ford-logo-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+  }
+
+  button {
+    background: #1b9bff;
+    color: white;
+    margin: 2px;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(107, 227, 248, 0.644);
+  }
+
+}
